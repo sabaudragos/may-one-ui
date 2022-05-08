@@ -27,8 +27,8 @@ export class LoginComponent implements OnInit {
   }
 
   onLogin() {
-    const username = this.logInFormGroup.controls['email'].value;
-    const password = this.logInFormGroup.controls['password'].value;
+    this.email = this.logInFormGroup.controls['email'].value;
+    this.password = this.logInFormGroup.controls['password'].value;
 
     this.authService.logIn(this.email, this.password);
   }

@@ -16,7 +16,7 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {AuthService} from "./service/auth-service";
 import {UserService} from "./service/user-service";
 import {MatInputModule} from "@angular/material/input";
-import {NgbAlertModule, NgbModule} from "@ng-bootstrap/ng-bootstrap";
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
